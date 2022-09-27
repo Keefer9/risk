@@ -1,0 +1,29 @@
+{
+  "name": "risk",
+  "version": "1.0.0",
+  "description": "Website for hosting 'Risk' like game",
+  "main": "index.js",
+  "scripts": {
+    "tsc" : "tsc",
+    "start:prod": "node build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keefer9/risk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keefer9/risk/issues"
+  },
+  "homepage": "https://github.com/Keefer9/risk#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "express": "^4.18.1"
+  }
+}
